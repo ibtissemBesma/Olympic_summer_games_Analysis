@@ -17,7 +17,7 @@ Medal TEXT
 );
 copy Athlete_STG from 'C:\Projects\Olympic_summer_games_Analysis\athlete_events.csv' 
 delimiter ',' csv HEADER;
--------------------------------
+---------------------------------
 --data cleaning :
 update Athlete_stg
 set height=NULL
